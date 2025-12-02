@@ -659,13 +659,14 @@ button {
 
 .product_payment .accordion {
     background: var(--lightBg);
-    padding: 15px 10px;
+    padding: 10px 25px;
     border-radius: 12px;
 }
 
 .product_payment_accordion .accordion-item {
     border: none;
     background: none;
+    margin: 0 !important;
 }
 
 .product_payment_accordion .accordion-button:not(.collapsed) {
@@ -685,6 +686,7 @@ button {
     text-transform: capitalize;
     background: none;
     color: var(--colorBlack);
+    padding: 15px 0 15px 10px;
 }
 
 .product_payment_accordion .accordion-button.collapsed::before {
@@ -732,7 +734,7 @@ button {
 
 .product_payment_accordion .accordion-body {
     background: var(--colorWhite);
-    margin: 0px 20px;
+    /* margin: 0px 20px; */
     position: relative;
     border-radius: 10px;
 }
@@ -778,10 +780,10 @@ button {
 .accordion-collapse .accordion-body::before {
     position: absolute;
     content: "";
-    top: -16px;
+    top: -13px;
     left: 30px;
-    width: 30px;
-    height: 18px;
+    width: 25px;
+    height: 15px;
     background: var(--colorWhite);
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     opacity: 0;
@@ -881,5 +883,9 @@ button {
     background: var(--lightBg);
     padding: 30px;
     font-size: 16px;
-    line-height: 32px;
+}
+
+.billing_single_input .select2-container--default .select2-selection--single {
+    border: 1px solid #E4E7E9;
+    border-radius: 8px !important;
 }
