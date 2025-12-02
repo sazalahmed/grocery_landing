@@ -135,7 +135,7 @@ button {
     align-items: center;
     gap: 20px;
     background: var(--colorOrange);
-    padding: 20px 30px;
+    padding: 20px 40px;
     margin: 0 auto;
     border-radius: 10px;
 }
@@ -665,22 +665,13 @@ button {
 
 .product_payment_accordion .accordion-item {
     border: none;
+    background: none;
 }
 
 .product_payment_accordion .accordion-button:not(.collapsed) {
     color: var(--colorBlack);
     background-color: transparent;
     box-shadow: none;
-}
-
-.product_payment_accordion .accordion-item:first-of-type {
-    border-top-left-radius: 0 !important;
-    border-top-right-radius: 0 !important;
-}
-
-.product_payment_accordion .accordion-item:last-of-type {
-    border-bottom-right-radius: 0 !important;
-    border-bottom-left-radius: 0 !important;
 }
 
 .product_payment_accordion .accordion-button:focus {
@@ -697,19 +688,7 @@ button {
 }
 
 .product_payment_accordion .accordion-button.collapsed::before {
-    position: relative;
-    content: "";
-    top: 0;
-    left: -10px;
-    width: 18px;
-    height: 18px;
-    background: var(--colorWhite);
     border: 1px solid #7d8188;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
 
 .product_payment_accordion .accordion-button::before {
