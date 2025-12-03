@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
-    <title>Document</title>
+    <title>Khati Shaad</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -19,10 +19,59 @@
 
 <body>
 
+    <nav class="navbar navbar-expand-lg main_menu">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Khati Shaad" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <ul class="right_menu">
+                    <li>
+                        <span class="cart_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                            </svg>
+                            <b>0</b>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="call_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.75 3.75 18 6m0 0 2.25 2.25M18 6l2.25-2.25M18 6l-2.25 2.25m1.5 13.5c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
+                            </svg>
+                        </span>
+                        <h5>Hotline:</h5>
+                        <a href="callto:+8801773335481">+8801773335481</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+
     <section class="grocery_banner" style="background: url(images/banner_bg.jpg);">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
                     <div class="grocery_banner_text">
                         <h1>মদিনার রসালো স্বাদ ও পুষ্টিতে ভরপুর ন্যাচারালস সুপার প্রিমিয়াম খেজুর।</h1>
                         <div class="border_text">
@@ -30,6 +79,8 @@
                             <a href="callto:12345678901">+8801711112222</a>
                         </div>
                     </div>
+                </div>
+                <div class="col-lg-5">
                     <div class="grocery_banner_img">
                         <img src="images/banner_img.webp" alt="grocery-banner">
                     </div>
@@ -38,7 +89,7 @@
         </div>
     </section>
 
-    <section class="grocery_details_tow mt_100">
+    <section class="grocery_details_tow mt_100 xs_mt_50">
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-md-6 col-xl-6">
@@ -67,7 +118,7 @@
         </div>
     </section>
 
-    <section class="grocery_details mt_100" style="background: url(images/bg_1.jpg);">
+    <section class="grocery_details mt_100 xs_mt_50" style="background: url(images/bg_1.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -95,7 +146,7 @@
         </div>
     </section>
 
-    <section class="grocery_details_three mt_100">
+    <section class="grocery_details_three mt_100 xs_mt_50">
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-md-6 col-xl-5">
@@ -126,7 +177,7 @@
         </div>
     </section>
 
-    <section class="grocery_faq mt_100">
+    <section class="grocery_faq mt_100 xs_mt_50">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -231,7 +282,7 @@
         </div>
     </section>
 
-    <section class="grocery_offer mt_100" style="background: url(images/bg_2.jpg);">
+    <section class="grocery_offer mt_100 xs_mt_50" style="background: url(images/bg_2.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -248,7 +299,7 @@
         </div>
     </section>
 
-    <section class="grocery_review mt_100">
+    <section class="grocery_review mt_100 xs_mt_50">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-7">
@@ -291,7 +342,7 @@
         </div>
     </section>
 
-    <section class="billing_form mt_130">
+    <section class="billing_form mt_130 xs_mt_90">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-7">
@@ -585,7 +636,7 @@
         </div>
     </section>
 
-    <section class="grocery_copy_right mt_100">
+    <section class="grocery_copy_right mt_100 xs_mt_50">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-11">

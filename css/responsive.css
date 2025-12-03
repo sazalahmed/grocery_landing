@@ -26,6 +26,23 @@
     .billing_orders_top h6 {
         width: 25%;
     }
+
+    .grocery_banner_img {
+        height: 450px !important;
+    }
+
+    .grocery_banner_text h1 {
+        font-size: 48px;
+    }
+
+    .grocery_banner_text .border_text h4,
+    .grocery_banner_text .border_text a {
+        font-size: 20px;
+    }
+
+
+
+
 }
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
@@ -69,7 +86,16 @@
     }
 
     .grocery_banner_img {
-        width: auto;
+        height: 375px !important;
+    }
+
+    .grocery_banner_text h1 {
+        font-size: 40px;
+    }
+
+    .grocery_banner_text .border_text h4,
+    .grocery_banner_text .border_text a {
+        font-size: 20px;
     }
 }
 
@@ -79,7 +105,8 @@
     }
 
     .grocery_banner_img {
-        width: auto;
+        width: 500px;
+        height: 500px !important;
     }
 
     .grocery_details_img {
@@ -101,6 +128,35 @@
     .product_select_details .text {
         width: 80%;
     }
+
+    .main_menu .container {
+        padding: 7px 0px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 40px;
+        background: var(--colorWhite);
+        padding: 10px 15px;
+    }
+
+    .main_menu .right_menu {
+        background: var(--colorWhite);
+        padding: 15px;
+        border-top: 1px solid #eee;
+        border-radius: 0px 0px 10px 10px;
+        -webkit-border-radius: 0px 0px 10px 10px;
+        -moz-border-radius: 0px 0px 10px 10px;
+        -ms-border-radius: 0px 0px 10px 10px;
+        -o-border-radius: 0px 0px 10px 10px;
+    }
+
+    .navbar-collapse {
+        border: 1px solid #eee;
+        border-top: 0;
+        margin-top: 6px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 0 0 8px 8px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.99px) {
@@ -114,7 +170,7 @@
     }
 
     .grocery_banner_img {
-        width: auto;
+        height: 515px !important;
     }
 
     .grocery_heading h2 {
@@ -200,6 +256,44 @@
     .billing_orders_top h6 {
         width: 25%;
     }
+
+    .main_menu .container {
+        padding: 7px 0px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 40px;
+        background: var(--colorWhite);
+        padding: 10px 15px;
+    }
+
+    .main_menu .right_menu {
+        background: var(--colorWhite);
+        padding: 15px;
+        border-top: 1px solid #eee;
+        border-radius: 0px 0px 10px 10px;
+        -webkit-border-radius: 0px 0px 10px 10px;
+        -moz-border-radius: 0px 0px 10px 10px;
+        -ms-border-radius: 0px 0px 10px 10px;
+        -o-border-radius: 0px 0px 10px 10px;
+    }
+
+    .navbar-collapse {
+        border: 1px solid #eee;
+        border-top: 0;
+        margin-top: 6px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 0 0 8px 8px;
+    }
+
+    .grocery_details,
+    .grocery_offer {
+        padding: 50px 0px;
+    }
+
+    .product_payment_accordion .accordion-body {
+        padding: 25px;
+    }
 }
 
 @media (max-width: 575.99px) {
@@ -218,7 +312,7 @@
     }
 
     .grocery_banner_img {
-        width: auto;
+        height: auto !important;
     }
 
     .grocery_heading h2 {
@@ -326,4 +420,56 @@
     .billing_orders_top h6 {
         width: 25%;
     }
+
+    .main_menu .container {
+        padding: 7px 0px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 40px;
+        background: var(--colorWhite);
+        padding: 10px 15px;
+    }
+
+    .main_menu .right_menu {
+        background: var(--colorWhite);
+        padding: 15px;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        border-radius: 0px 0px 10px 10px;
+        -webkit-border-radius: 0px 0px 10px 10px;
+        -moz-border-radius: 0px 0px 10px 10px;
+        -ms-border-radius: 0px 0px 10px 10px;
+        -o-border-radius: 0px 0px 10px 10px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 12px;
+    }
+
+    .navbar-toggler {
+        margin-right: 12px;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid #eee;
+        margin-top: 5px;
+    }
+
+    .grocery_details,
+    .grocery_offer {
+        padding: 50px 0px;
+    }
+
+    .grocery_banner {
+        padding: 125px 0px 50px 0px;
+    }
+
+    .product_payment_accordion .accordion-body {
+        padding: 20px;
+    }
+
+
+
+
 }
