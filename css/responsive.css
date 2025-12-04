@@ -27,8 +27,8 @@
         width: 25%;
     }
 
-    .grocery_banner_img {
-        height: 450px !important;
+    .grocery_banner_img .img {
+        height: 390px !important;
     }
 
     .grocery_banner_text h1 {
@@ -40,8 +40,9 @@
         font-size: 20px;
     }
 
-
-
+    .grocery_banner {
+        height: 800px;
+    }
 
 }
 
@@ -85,10 +86,6 @@
         margin-right: 25px;
     }
 
-    .grocery_banner_img {
-        height: 375px !important;
-    }
-
     .grocery_banner_text h1 {
         font-size: 40px;
     }
@@ -96,6 +93,14 @@
     .grocery_banner_text .border_text h4,
     .grocery_banner_text .border_text a {
         font-size: 20px;
+    }
+
+    .grocery_banner {
+        height: 700px;
+    }
+
+    .grocery_banner_img .img {
+        height: 320px !important;
     }
 }
 
@@ -105,8 +110,12 @@
     }
 
     .grocery_banner_img {
+        margin-top: 50px;
+    }
+
+    .grocery_banner_img .img {
         width: 500px;
-        height: 500px !important;
+        height: 430px !important;
     }
 
     .grocery_details_img {
@@ -157,6 +166,10 @@
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         border-radius: 0 0 8px 8px;
     }
+
+    .grocery_banner {
+        height: auto;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.99px) {
@@ -167,10 +180,15 @@
     .grocery_banner_text .border_text {
         display: flex;
         gap: 5px;
+        padding: 20px 20px;
     }
 
     .grocery_banner_img {
-        height: 515px !important;
+        margin-top: 50px;
+    }
+
+    .grocery_banner_img .img {
+        height: 445px !important;
     }
 
     .grocery_heading h2 {
@@ -283,7 +301,7 @@
         border-top: 0;
         margin-top: 6px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-        border-radius: 0 0 8px 8px;
+        border-radius: 0 0 14px 14px;
     }
 
     .grocery_details,
@@ -293,6 +311,11 @@
 
     .product_payment_accordion .accordion-body {
         padding: 25px;
+    }
+
+    .grocery_banner {
+        padding: 125px 0px 50px 0px;
+        height: auto;
     }
 }
 
@@ -309,9 +332,14 @@
     .grocery_banner_text .border_text {
         display: flex;
         gap: 5px;
+        padding: 20px 20px;
     }
 
     .grocery_banner_img {
+        margin-top: 50px;
+    }
+
+    .grocery_banner_img .img {
         height: auto !important;
     }
 
@@ -463,13 +491,10 @@
 
     .grocery_banner {
         padding: 125px 0px 50px 0px;
+        height: auto;
     }
 
     .product_payment_accordion .accordion-body {
         padding: 20px;
     }
-
-
-
-
 }
